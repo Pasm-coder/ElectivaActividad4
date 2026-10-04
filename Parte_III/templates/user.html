@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SECURELINK - Usuario</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <div class="dashboard-card user-card">
+
+            <div class="role-icon">
+                👤
+            </div>
+
+            <h1>Panel de Usuario</h1>
+
+            <p>
+                Bienvenido, <strong>{{ usuario }}</strong>
+            </p>
+
+            <div class="role-badge">
+                ROL: USUARIO
+            </div>
+
+            <div class="info-box">
+
+                <h2>Acceso autorizado</h2>
+
+                <p>
+                    Has iniciado sesión correctamente
+                    como usuario.
+                </p>
+
+                <p>
+                    Tus permisos están determinados
+                    por tu rol dentro del sistema.
+                </p>
+
+            </div>
+
+            <a href="{{ url_for('logout') }}"
+               class="logout-button">
+                Cerrar sesión
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

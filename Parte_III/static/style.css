@@ -1,0 +1,282 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: linear-gradient(
+        135deg,
+        #0f172a,
+        #1e3a8a
+    );
+}
+
+.login-container {
+    width: 100%;
+    max-width: 430px;
+    padding: 20px;
+}
+
+.login-card {
+    background: white;
+    padding: 40px;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.25);
+
+    text-align: center;
+}
+
+.logo {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    color: #1e3a8a;
+    font-size: 30px;
+    margin-bottom: 8px;
+}
+
+.subtitle {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+
+    font-weight: bold;
+    color: #334155;
+}
+
+input {
+    width: 100%;
+
+    padding: 13px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 8px;
+
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+
+    border-color: #2563eb;
+
+    box-shadow:
+        0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+button {
+    width: 100%;
+
+    padding: 14px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #2563eb;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.error {
+    background: #fee2e2;
+
+    color: #b91c1c;
+
+    padding: 12px;
+
+    border-radius: 8px;
+
+    margin-bottom: 20px;
+
+    font-size: 14px;
+}
+
+.security-info {
+    margin-top: 25px;
+
+    padding-top: 20px;
+
+    border-top: 1px solid #e2e8f0;
+
+    color: #64748b;
+
+    font-size: 13px;
+
+    line-height: 1.8;
+}
+
+
+/* ============================================================
+   PANELES DE ROLES
+   ============================================================ */
+
+.dashboard {
+    width: 100%;
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 30px;
+}
+
+.dashboard-card {
+    width: 100%;
+    max-width: 600px;
+
+    background: white;
+
+    padding: 45px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.25);
+}
+
+.role-icon {
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+.dashboard-card h1 {
+    margin-bottom: 15px;
+}
+
+.dashboard-card > p {
+    color: #64748b;
+    font-size: 17px;
+}
+
+.role-badge {
+    display: inline-block;
+
+    margin: 20px 0;
+
+    padding: 8px 18px;
+
+    border-radius: 20px;
+
+    background: #dbeafe;
+
+    color: #1d4ed8;
+
+    font-weight: bold;
+
+    font-size: 13px;
+}
+
+.info-box {
+    margin: 20px 0;
+
+    padding: 20px;
+
+    background: #f8fafc;
+
+    border-radius: 12px;
+
+    border: 1px solid #e2e8f0;
+}
+
+.info-box h2 {
+    color: #1e3a8a;
+
+    font-size: 20px;
+
+    margin-bottom: 12px;
+}
+
+.info-box p {
+    color: #475569;
+
+    line-height: 1.6;
+
+    margin-bottom: 8px;
+}
+
+.logout-button {
+    display: inline-block;
+
+    width: 100%;
+
+    padding: 13px;
+
+    margin-top: 10px;
+
+    border-radius: 8px;
+
+    background: #dc2626;
+
+    color: white;
+
+    text-decoration: none;
+
+    font-weight: bold;
+}
+
+.logout-button:hover {
+    background: #b91c1c;
+}
+
+
+
+/* ============================================================
+   PÁGINA DE REGISTRO
+   ============================================================ */
+
+.login-container p {
+    margin-top: 15px;
+}
+
+.login-container a {
+    color: #0647A9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login-container a:hover {
+    text-decoration: underline;
+}
+
+.mensaje {
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 15px;
+}

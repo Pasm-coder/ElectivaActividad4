@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SECURELINK - Administrador</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="dashboard">
+
+        <div class="dashboard-card admin-card">
+
+            <div class="role-icon">
+                🛡️
+            </div>
+
+            <h1>Panel de Administrador</h1>
+
+            <p>
+                Bienvenido, <strong>{{ usuario }}</strong>
+            </p>
+
+            <div class="role-badge">
+                ROL: ADMIN
+            </div>
+
+            <div class="info-box">
+
+                <h2>Acceso autorizado</h2>
+
+                <p>
+                    Has iniciado sesión correctamente
+                    como administrador.
+                </p>
+
+                <p>
+                    Este panel está protegido mediante
+                    control de acceso basado en roles.
+                </p>
+
+            </div>
+
+            <a href="{{ url_for('logout') }}"
+               class="logout-button">
+                Cerrar sesión
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>

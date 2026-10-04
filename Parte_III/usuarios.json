@@ -1,0 +1,14 @@
+{
+    "admin1": {
+        "password": "$2b$12$7IJEVWswS504GJRQ//2y6O/pnjvAM14PPy8YYZf7iHYJrAPkzRuIe",
+        "rol": "admin"
+    },
+    "usuario1": {
+        "password": "$2b$12$.No4xIPe8hqs5AsfFFPxU.Tesyi1B7nTPpFM7X.ye9NsSamX5WDl2",
+        "rol": "usuario"
+    },
+    "invitado1": {
+        "password": "$2b$12$h0Szn.YBkZvL8cohGhOjEeL1VX0hj5LLFBHHosyX7Oe6fKsYLNP/i",
+        "rol": "invitado"
+    }
+}
